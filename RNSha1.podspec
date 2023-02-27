@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
 
   s.license      = package["license"]
-  s.platform     = { :ios => '8.0', :tvos => '12.4' }
+  s.platforms     = { :ios => '8.0', :tvos => '12.4' }
 
   s.source       = { :git => "https://github.com/marconett/react-native-sha1.git", :tag => "#{s.version}" }
   s.source_files = "ios/**/*.{h,m,swift}"
